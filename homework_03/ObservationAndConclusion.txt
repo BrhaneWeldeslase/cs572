@@ -1,0 +1,6 @@
+
+   Conclusion about what is happening.
+
+File of size 201 is created and tt is observed that both readFileSync and readFile keep the entire file in RAM, which is bad in terms of efficiency.However,
+Stream uses little RAM for any file reading regardless of the size. So, as a conclusion it is best to use Stream solution for
+best memory use and efficiency.
